@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+.parallelogram {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 900px;
+  height: 450px; 
+  background-color: #ec2f2f; 
+  transform: translate(-50%, -50%) skew(-15deg); /* Negative skew angle to flip side */
+  z-index: -1;
+}
